@@ -31,7 +31,7 @@ export async function GET() {
       splashImageUrl:
         "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
       splashBackgroundColor: "#ffffff",
-      homeUrl: "https://base-apptetrico.vercel.app",
+      homeUrl: "https://speech-complete-058.app.ohara.ai",
       webhookUrl: "https://base-apptetrico.vercel.app/api/webhook",
       primaryCategory: "games",
       tags: ["tetris", "block", "puzzle", "arcade", "farcaster"],
