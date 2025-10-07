@@ -5,8 +5,8 @@ const ROOT_URL =
     : "http://localhost:3000");
 
 /**
- * MiniApp configuration object for the Farcaster MiniApp.
- * Fully configured for the Block Drop TETRİCO game.
+ * MiniApp configuration object for Farcaster MiniApps.
+ * Updated version for Block Drop TETRİCO with baseBuilder and accountAssociation.
  *
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
@@ -14,9 +14,14 @@ export const minikitConfig = {
   accountAssociation: {
     header:
       "eyJmaWQiOjEwMzQ4MTMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhEZDRhNTMwNTFCOWE2OEVBMjJkYkFENDY5OTI5MTg3ODkyRGQyMTU1In0",
-    payload: "eyJkb21haW4iOiJiYXNlLWFwcHRldHJpY28udmVyY2VsLmFwcCJ9",
+    payload:
+      "eyJkb21haW4iOiJiYXNlLWFwcHRldHJpY28udmVyY2VsLmFwcCJ9",
     signature:
       "MHgzMThkNDRkMzVhMmYzZjk3NmRlMmFkNjk3ZjkwNjExNmZiOTFmNmYwMzI5NDA2MDE4MTA3YzNhYjIyODQ5MDlhNjAxYWMwNzI5OTAyZGNlZGVkODk0ZTUyMDQxNWI0NjI1OTg0NTYzZDExODE5YWNiYWI4ZmJlM2FjMTk1NjVjYjFj",
+  },
+
+  baseBuilder: {
+    allowedAddresses: ["0xc13E22aa3C5487eEAF2da8a5ebc91a5FD9A72701"],
   },
 
   miniapp: {
