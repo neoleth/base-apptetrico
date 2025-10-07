@@ -49,6 +49,6 @@ export const minikitConfig = {
     ogDescription:
       "Drop, rotate, and clear lines in this smooth Tetris experience for Farcaster users.",
     ogImageUrl:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+      "https://i.imgur.com/mJeZXLBl.png",
   },
 } as const;
