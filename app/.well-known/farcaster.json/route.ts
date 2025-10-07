@@ -17,7 +17,7 @@ export async function GET() {
 
     miniapp: {
       version: "1",
-      name: "Block Drop TETRİCO",
+      name: "TETRİCO",
       subtitle: "Stack the blocks, challenge the AI!",
       description:
         "A modern Tetris experience with smooth gameplay, built on Farcaster MiniApps.",
@@ -38,11 +38,11 @@ export async function GET() {
       heroImageUrl:
         "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
       tagline: "Play Tetris anywhere — powered by Farcaster.",
-      ogTitle: "Block Drop TETRİCO",
+      ogTitle: "TETRİCO",
       ogDescription:
         "Drop, rotate, and clear lines in this smooth Tetris experience for Farcaster users.",
       ogImageUrl:
-        "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+        "https://i.imgur.com/k0coJML.jpeg",
     },
   };
 
