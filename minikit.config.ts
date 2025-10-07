@@ -1,36 +1,49 @@
 const ROOT_URL =
   process.env.NEXT_PUBLIC_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:3000');
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000");
 
 /**
- * MiniApp configuration object. Must follow the Farcaster MiniApp specification.
+ * MiniApp configuration object for the Farcaster MiniApp.
+ * Fully configured for the Block Drop TETRİCO game.
  *
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
 export const minikitConfig = {
   accountAssociation: {
-    header: "",
-    payload: "",
-    signature: ""
+    header:
+      "eyJmaWQiOjEwMzQ4MTMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhEZDRhNTMwNTFCOWE2OEVBMjJkYkFENDY5OTI5MTg3ODkyRGQyMTU1In0",
+    payload: "eyJkb21haW4iOiJiYXNlLWFwcHRldHJpY28udmVyY2VsLmFwcCJ9",
+    signature:
+      "MHgzMThkNDRkMzVhMmYzZjk3NmRlMmFkNjk3ZjkwNjExNmZiOTFmNmYwMzI5NDA2MDE4MTA3YzNhYjIyODQ5MDlhNjAxYWMwNzI5OTAyZGNlZGVkODk0ZTUyMDQxNWI0NjI1OTg0NTYzZDExODE5YWNiYWI4ZmJlM2FjMTk1NjVjYjFj",
   },
+
   miniapp: {
     version: "1",
-    name: "Cubey", 
-    subtitle: "Your AI Ad Companion", 
-    description: "Ads",
-    screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
-    iconUrl: `${ROOT_URL}/blue-icon.png`,
-    splashImageUrl: `${ROOT_URL}/blue-hero.png`,
-    splashBackgroundColor: "#000000",
-    homeUrl: ROOT_URL,
+    name: "Block Drop TETRİCO",
+    subtitle: "Stack the blocks, challenge the AI!",
+    description:
+      "A modern Tetris experience with smooth gameplay, built on Farcaster MiniApps.",
+    screenshotUrls: [
+      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_1b157526-9626-49e1-8979-d2922acffca8-XOgckv5QL2WyC38vXxtimkHDMykSo5",
+    ],
+    iconUrl:
+      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+    splashImageUrl:
+      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+    splashBackgroundColor: "#ffffff",
+    homeUrl: "https://base-apptetrico.vercel.app",
     webhookUrl: `${ROOT_URL}/api/webhook`,
-    primaryCategory: "social",
-    tags: ["marketing", "ads", "quickstart", "waitlist"],
-    heroImageUrl: `${ROOT_URL}/blue-hero.png`, 
-    tagline: "",
-    ogTitle: "",
-    ogDescription: "",
-    ogImageUrl: `${ROOT_URL}/blue-hero.png`,
+    primaryCategory: "games",
+    tags: ["tetris", "block", "puzzle", "arcade", "farcaster"],
+    heroImageUrl:
+      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+    tagline: "Play Tetris anywhere — powered by Farcaster.",
+    ogTitle: "Block Drop TETRİCO",
+    ogDescription:
+      "Drop, rotate, and clear lines in this smooth Tetris experience for Farcaster users.",
+    ogImageUrl:
+      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
   },
 } as const;
-
