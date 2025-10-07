@@ -36,19 +36,19 @@ export const minikitConfig = {
     iconUrl:
       "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
     splashImageUrl:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+      "https://i.imgur.com/JQj06wxl.jpg",
     splashBackgroundColor: "#ffffff",
     homeUrl: "https://speech-complete-058.app.ohara.ai",
     webhookUrl: `${ROOT_URL}/api/webhook`,
     primaryCategory: "games",
     tags: ["tetris", "block", "puzzle", "arcade", "farcaster"],
     heroImageUrl:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+      "https://i.imgur.com/JQj06wxl.jpg",
     tagline: "Play Tetris anywhere — powered by Farcaster.",
     ogTitle: "TETRİCO",
     ogDescription:
       "Drop, rotate, and clear lines in this smooth Tetris experience for Farcaster users.",
     ogImageUrl:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+      "https://i.imgur.com/JQj06wxl.jpg",
   },
 } as const;
