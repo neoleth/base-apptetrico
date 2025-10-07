@@ -29,20 +29,20 @@ export async function GET() {
       imageUrl:
         "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_1b157526-9626-49e1-8979-d2922acffca8-XOgckv5QL2WyC38vXxtimkHDMykSo5",
       splashImageUrl:
-        "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+        "https://ibb.co/spz0xSZ1",
       splashBackgroundColor: "#ffffff",
       homeUrl: "https://speech-complete-058.app.ohara.ai",
       webhookUrl: "https://base-apptetrico.vercel.app/api/webhook",
       primaryCategory: "games",
       tags: ["tetris", "block", "puzzle", "arcade", "farcaster"],
       heroImageUrl:
-        "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+        "https://ibb.co/spz0xSZ1",
       tagline: "Play Tetris anywhere — powered by Farcaster.",
       ogTitle: "TETRİCO",
       ogDescription:
         "Drop, rotate, and clear lines in this smooth Tetris experience for Farcaster users.",
       ogImageUrl:
-        "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-ac90-620a-b252-6a585bfb0877/raw?se=2025-10-07T18%3A30%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=5726e9d5-2c41-5784-941d-9afee0505d94&skoid=82a3371f-2f6c-4f81-8a78-2701b362559b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-07T18%3A16%3A24Z&ske=2025-10-08T18%3A16%3A24Z&sks=b&skv=2024-08-04&sig=bOpjfNNmrEeCmvcstYPLlvqIUAdlKBIyjgFSHmfZO3E%3D",
+        "https://ibb.co/spz0xSZ1",
     },
   };
 
