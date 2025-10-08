@@ -39,7 +39,7 @@ export const minikitConfig = {
       "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
     splashBackgroundColor: "#ffffff",
     homeUrl: "https://speech-complete-058.app.ohara.ai",
-    webhookUrl: `${ROOT_URL}/api/webhook`,
+    webhookUrl: https://speech-complete-058.app.ohara.ai/api/webhook`,
     primaryCategory: "games",
     tags: ["tetris", "block", "puzzle", "arcade", "farcaster"],
     heroImageUrl:
